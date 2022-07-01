@@ -11,6 +11,8 @@ La aplicación corre en el puerto 3001 por defecto.
 
 ### Ejecución
 
+Renombrar el .env.ejemplo a .env y llenar con los datos correctos.
+
 ```
 npm start
 ```
