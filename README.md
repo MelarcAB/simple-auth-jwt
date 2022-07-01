@@ -11,6 +11,11 @@ La aplicación corre en el puerto 3001 por defecto.
 
 ### Ejecución
 
+```
+npm start
+```
+
+
 * Para registrar un usuario nuevo se tendrá que hacer una petición POST a localhost:3001/api/auth/register con los respectivos parámetros.
 ```
 {
