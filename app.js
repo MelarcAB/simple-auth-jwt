@@ -28,13 +28,7 @@ const authRoutes = require('./routes/auth');
 const homeRoutes = require('./routes/home');
 const verifyToken = require('./routes/validate-token');
 
-// route middlewares
-app.get('/', (req, res) => {
-    res.json({
-        estado: true,
-        mensaje: 'funciona!'
-    })
-});
+// routes with middlewares
 app.use('/api/home', verifyToken, homeRoutes);
 
 
